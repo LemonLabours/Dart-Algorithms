@@ -1,4 +1,14 @@
 import 'package:flutter/foundation.dart';
+// Bubble Sort is a simple sorting algorithm that repeatedly steps through the list,
+// compares adjacent elements, and swaps them if they are in the wrong order.
+// The pass through the list is repeated until the list is sorted.
+// Although bubble sort is easy to understand and implement, it is not efficient for large datasets,
+// especially compared to more advanced algorithms like quicksort or mergesort.
+
+// Time Complexity: Bubble Sort has a worst-case and average-case time complexity of O(n^2),
+// where n is the number of elements in the list. This is because, in the worst case,
+// we may need to make n passes through the list, and for each pass, we compare and potentially swap
+// each pair of adjacent elements. The best-case time complexity is O(n) when the list is already sorted
 
 void bubbleSort(List<int> list) {
   int n = list.length; // The total number of elements in the list

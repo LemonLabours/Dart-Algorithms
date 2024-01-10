@@ -22,7 +22,7 @@ bool containsDuplicateNumbers(List<int> numbers) {
 }
 
 void main() {
-  List<int> numbersWithDuplicates = [1, 2, 3, 4, 2, 5];
+  List<int> numbersWithDuplicates = [1, 3, 4, 2, 5];
   bool hasDuplicates = containsDuplicateNumbers(numbersWithDuplicates);
 
   if (hasDuplicates) {
